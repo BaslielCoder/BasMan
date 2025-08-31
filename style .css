@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.header{
+    background-color: lightskyblue;
+}
