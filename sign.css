@@ -1,4 +1,33 @@
 body{
     background-color:linear-gradient(lightblue, indigo);
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+}
+.holder{
+    grid-area: header;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.hold{
+    grid-area: main;
+    background-color: coral;
+    text-align: center;
+    height: 500px;
+    width: 1350px;
+}
+.button{
+    background-color: aqua;
+    margin: 50px;
 
+}
+.button:hover{
+    background-color: lightblue;
+    width: 60px;
+}
+.held{
+    grid-area: footer;
+    background-color: lightskyblue;
+    text-align: center;
 }
