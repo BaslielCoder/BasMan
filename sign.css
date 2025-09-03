@@ -20,14 +20,14 @@ body{
 .button{
     background-color: aqua;
     margin: 100px;
-
 }
 .button:hover{
     background-color: lightblue;
-    width: 600px;
+    width: 100px;
 }
 .held{
     grid-area: footer;
     background-color: lightskyblue;
     text-align: center;
+    height: 50px;
 }
